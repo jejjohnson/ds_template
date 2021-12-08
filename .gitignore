@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# exclude data from source control by default
+datasets/*
+!datasets/.gitkeep 
